@@ -1,0 +1,1650 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_roles": 63,
+    "source": "O*NET Online (U.S. Department of Labor), Bureau of Labor Statistics Occupational Outlook Handbook 2023-24, LinkedIn Jobs Report 2024, manual curation",
+    "categories": ["Data & AI", "Software Engineering", "UX & Design", "DevOps & Cloud", "Product & Analytics"],
+    "currency": "USD",
+    "salary_data_year": 2024
+  },
+  "roles": [
+    {
+      "role_id": "R001",
+      "title": "Data Scientist",
+      "category": "Data & AI",
+      "subcategory": "Data Science",
+      "description": "Data Scientists extract insights from complex datasets using statistical methods, machine learning, and programming. They work across the full data lifecycle—from raw data collection and cleaning to model building and communicating findings to stakeholders.",
+      "responsibilities": [
+        "Build and evaluate predictive models using supervised and unsupervised ML techniques",
+        "Clean, transform, and explore large datasets to identify patterns",
+        "Collaborate with engineering teams to deploy models to production",
+        "Communicate findings and recommendations to non-technical stakeholders",
+        "Design and analyse A/B experiments"
+      ],
+      "focus_areas": ["Predictive Modelling", "Statistical Analysis", "Data Storytelling", "Feature Engineering"],
+      "salary_range": {"min": 95000, "max": 165000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Explosive growth in data-driven decision making across all industries; listed among top 10 fastest-growing jobs globally",
+      "growth_rate": 36,
+      "tools_and_technologies": ["Python", "Scikit-learn", "TensorFlow", "SQL", "Jupyter", "Tableau", "Spark"],
+      "related_roles": ["R002", "R003", "R007"],
+      "learning_roadmap": {
+        "foundation": ["Python", "SQL", "Statistics", "Data Wrangling", "Data Visualization"],
+        "intermediate": ["Machine Learning", "Feature Engineering", "A/B Testing", "Big Data"],
+        "advanced": ["Deep Learning", "MLOps", "Explainable AI", "Research Skills"]
+      }
+    },
+    {
+      "role_id": "R002",
+      "title": "Machine Learning Engineer",
+      "category": "Data & AI",
+      "subcategory": "ML Engineering",
+      "description": "ML Engineers bridge data science and software engineering, focusing on building robust, scalable infrastructure for machine learning models. They take models from research and deploy them reliably at production scale.",
+      "responsibilities": [
+        "Design and implement scalable ML pipelines and training infrastructure",
+        "Deploy and monitor ML models in production environments",
+        "Optimise model performance, latency, and resource usage",
+        "Collaborate with data scientists to productionise research models",
+        "Build feature stores and data pipelines for model training"
+      ],
+      "focus_areas": ["Model Deployment", "MLOps", "Scalable Pipelines", "Production Systems"],
+      "salary_range": {"min": 110000, "max": 185000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Massive demand as companies move from experimental ML to production AI systems at scale",
+      "growth_rate": 40,
+      "tools_and_technologies": ["Python", "PyTorch", "TensorFlow", "Kubeflow", "Docker", "Kubernetes", "AWS SageMaker"],
+      "related_roles": ["R001", "R003", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Machine Learning", "SQL", "Git / Version Control", "Linux / Shell Scripting"],
+        "intermediate": ["MLOps", "Docker", "Cloud Platforms", "REST API Design", "CI/CD Pipelines"],
+        "advanced": ["Kubernetes", "Deep Learning", "System Design", "Microservices"]
+      }
+    },
+    {
+      "role_id": "R003",
+      "title": "AI Research Engineer",
+      "category": "Data & AI",
+      "subcategory": "AI Research",
+      "description": "AI Research Engineers work at the frontier of artificial intelligence, designing novel algorithms and architectures. They combine strong mathematical foundations with engineering skills to push the state of the art in ML research.",
+      "responsibilities": [
+        "Design and experiment with novel ML architectures and training methods",
+        "Read, reproduce, and extend state-of-the-art research papers",
+        "Implement research prototypes and benchmark against baselines",
+        "Publish and present findings at top conferences",
+        "Collaborate with applied teams to transfer research to products"
+      ],
+      "focus_areas": ["Research", "Novel Algorithms", "Deep Learning", "Mathematical Foundations"],
+      "salary_range": {"min": 130000, "max": 250000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "AI arms race among top tech companies and well-funded startups creating huge demand for research talent",
+      "growth_rate": 45,
+      "tools_and_technologies": ["Python", "PyTorch", "JAX", "CUDA", "W&B", "LaTeX"],
+      "related_roles": ["R002", "R001", "R008"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Mathematics / Linear Algebra", "Machine Learning", "Statistics", "Research Skills"],
+        "intermediate": ["Deep Learning", "Natural Language Processing", "Computer Vision", "Explainable AI"],
+        "advanced": ["Novel Architecture Design", "GPU Programming", "Research Paper Writing"]
+      }
+    },
+    {
+      "role_id": "R004",
+      "title": "Data Analyst",
+      "category": "Data & AI",
+      "subcategory": "Analytics",
+      "description": "Data Analysts collect, process, and perform statistical analyses on large datasets to help organisations make data-driven decisions. They translate numbers into clear, actionable insights and communicate findings through reports and dashboards.",
+      "responsibilities": [
+        "Query databases to extract relevant data for business questions",
+        "Build dashboards and reports for stakeholders",
+        "Identify trends and anomalies in business metrics",
+        "Work with business teams to define key metrics and KPIs",
+        "Perform ad-hoc analyses to support decision-making"
+      ],
+      "focus_areas": ["SQL", "Dashboarding", "Business Intelligence", "Reporting"],
+      "salary_range": {"min": 60000, "max": 105000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Every industry needs professionals who can make sense of growing data volumes for business decisions",
+      "growth_rate": 23,
+      "tools_and_technologies": ["SQL", "Excel", "Tableau", "Power BI", "Python", "Google Analytics"],
+      "related_roles": ["R001", "R007", "R010"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Excel", "Data Visualization", "Statistical Analysis", "Communication"],
+        "intermediate": ["Python", "Business Intelligence", "A/B Testing", "Data Wrangling"],
+        "advanced": ["Machine Learning", "Big Data", "Advanced Statistics"]
+      }
+    },
+    {
+      "role_id": "R005",
+      "title": "NLP Engineer",
+      "category": "Data & AI",
+      "subcategory": "Specialised ML",
+      "description": "NLP Engineers build systems that understand, generate, and process human language. They work on applications like chatbots, translation, sentiment analysis, and large language models.",
+      "responsibilities": [
+        "Design and train language models and text classification systems",
+        "Build NLP pipelines for tasks like NER, summarisation, and translation",
+        "Fine-tune large language models (LLMs) for specific domains",
+        "Evaluate model outputs and handle failure modes",
+        "Integrate NLP components into production applications"
+      ],
+      "focus_areas": ["Language Models", "Text Processing", "LLMs", "Transformers"],
+      "salary_range": {"min": 115000, "max": 190000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "LLM and generative AI boom creating unprecedented demand for NLP specialists in every sector",
+      "growth_rate": 52,
+      "tools_and_technologies": ["Python", "HuggingFace", "PyTorch", "NLTK", "spaCy", "OpenAI API"],
+      "related_roles": ["R002", "R003", "R006"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Machine Learning", "Mathematics / Linear Algebra", "Statistics"],
+        "intermediate": ["Natural Language Processing", "Deep Learning", "REST API Design"],
+        "advanced": ["Transformer Architecture", "LLM Fine-tuning", "MLOps", "Research Skills"]
+      }
+    },
+    {
+      "role_id": "R006",
+      "title": "Computer Vision Engineer",
+      "category": "Data & AI",
+      "subcategory": "Specialised ML",
+      "description": "Computer Vision Engineers build systems that extract meaning from images and video. Applications include autonomous vehicles, medical imaging, quality control, and augmented reality.",
+      "responsibilities": [
+        "Design and train image classification, detection, and segmentation models",
+        "Build data pipelines for image collection, labelling, and augmentation",
+        "Optimise models for edge deployment on devices",
+        "Work with domain experts to solve real-world vision problems",
+        "Evaluate model performance on diverse, real-world datasets"
+      ],
+      "focus_areas": ["Image Recognition", "Object Detection", "CNNs", "Real-time Inference"],
+      "salary_range": {"min": 110000, "max": 185000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Growth in autonomous systems, robotics, healthcare AI, and industrial automation driving strong demand",
+      "growth_rate": 38,
+      "tools_and_technologies": ["Python", "PyTorch", "OpenCV", "TensorRT", "CUDA", "ONNX"],
+      "related_roles": ["R002", "R003", "R005"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Machine Learning", "Mathematics / Linear Algebra", "C/C++"],
+        "intermediate": ["Computer Vision", "Deep Learning", "Data Wrangling"],
+        "advanced": ["3D Graphics / OpenGL", "Edge Deployment", "MLOps", "Research Skills"]
+      }
+    },
+    {
+      "role_id": "R007",
+      "title": "Data Engineer",
+      "category": "Data & AI",
+      "subcategory": "Data Engineering",
+      "description": "Data Engineers design and maintain the infrastructure that makes data accessible and usable. They build pipelines, warehouses, and systems that allow analysts and scientists to work effectively.",
+      "responsibilities": [
+        "Design and build reliable ETL/ELT pipelines at scale",
+        "Architect data warehouses and data lake solutions",
+        "Ensure data quality, lineage, and governance",
+        "Optimise query performance and storage costs",
+        "Collaborate with data scientists and analysts on data needs"
+      ],
+      "focus_areas": ["Data Pipelines", "Warehousing", "ETL", "Distributed Computing"],
+      "salary_range": {"min": 95000, "max": 160000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Data infrastructure is foundational to all analytics and ML initiatives; severe shortage of qualified engineers",
+      "growth_rate": 29,
+      "tools_and_technologies": ["Python", "SQL", "Apache Spark", "Airflow", "dbt", "Snowflake", "Kafka"],
+      "related_roles": ["R001", "R004", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Python", "SQL", "Database Design", "Linux / Shell Scripting", "Git / Version Control"],
+        "intermediate": ["ETL Pipelines", "Big Data (Spark/Hadoop)", "Cloud Platforms", "Docker"],
+        "advanced": ["Kubernetes", "Data Architecture", "Streaming Systems", "NoSQL Databases"]
+      }
+    },
+    {
+      "role_id": "R008",
+      "title": "BI Developer",
+      "category": "Data & AI",
+      "subcategory": "Analytics",
+      "description": "BI Developers create and maintain business intelligence solutions, building dashboards, reports, and data models that help organisations understand their performance and make informed decisions.",
+      "responsibilities": [
+        "Design and develop interactive dashboards and reports",
+        "Build and optimise data models for reporting",
+        "Work with stakeholders to understand reporting requirements",
+        "Maintain and optimise BI infrastructure",
+        "Train end users on BI tools"
+      ],
+      "focus_areas": ["Dashboarding", "Data Modelling", "Reporting", "Stakeholder Communication"],
+      "salary_range": {"min": 75000, "max": 130000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Steady demand as organisations continue investing in data-driven decision-making platforms",
+      "growth_rate": 18,
+      "tools_and_technologies": ["Power BI", "Tableau", "SQL", "DAX", "Python", "Snowflake"],
+      "related_roles": ["R004", "R007", "R010"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Data Visualization", "Business Intelligence", "Statistical Analysis"],
+        "intermediate": ["ETL Pipelines", "Data Wrangling", "Python", "Communication"],
+        "advanced": ["Data Engineering", "Machine Learning basics", "Advanced SQL"]
+      }
+    },
+    {
+      "role_id": "R009",
+      "title": "Quantitative Analyst",
+      "category": "Data & AI",
+      "subcategory": "Analytics",
+      "description": "Quantitative Analysts apply mathematical and statistical methods to financial and risk modelling. They develop algorithms for trading, pricing, and risk management in financial institutions.",
+      "responsibilities": [
+        "Build quantitative models for trading strategies and risk assessment",
+        "Analyse financial data and backtest trading strategies",
+        "Implement statistical and machine learning models for pricing",
+        "Work with technology teams to deploy models to trading systems",
+        "Monitor and improve model performance"
+      ],
+      "focus_areas": ["Financial Modelling", "Statistical Analysis", "Risk Quantification", "Algorithmic Trading"],
+      "salary_range": {"min": 100000, "max": 200000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Financial sector ongoing investment in algorithmic trading, risk management, and quantitative strategies",
+      "growth_rate": 15,
+      "tools_and_technologies": ["Python", "R", "MATLAB", "SQL", "C++", "Bloomberg Terminal"],
+      "related_roles": ["R001", "R004", "R010"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Mathematics / Linear Algebra", "Statistical Analysis", "R Programming", "SQL"],
+        "intermediate": ["Machine Learning", "Data Wrangling", "Research Skills", "Communication"],
+        "advanced": ["Deep Learning", "Big Data", "Advanced Statistics", "Financial Domain Knowledge"]
+      }
+    },
+    {
+      "role_id": "R010",
+      "title": "Growth / Marketing Analyst",
+      "category": "Product & Analytics",
+      "subcategory": "Analytics",
+      "description": "Growth Analysts combine data analysis and marketing knowledge to optimise user acquisition, retention, and monetisation. They design and analyse experiments to improve product and campaign performance.",
+      "responsibilities": [
+        "Analyse user acquisition funnels and identify drop-off points",
+        "Design and analyse A/B tests for product and marketing campaigns",
+        "Build dashboards to track growth metrics and KPIs",
+        "Collaborate with marketing and product teams on growth experiments",
+        "Synthesise insights into actionable recommendations"
+      ],
+      "focus_areas": ["Growth Metrics", "A/B Testing", "Funnel Analysis", "Marketing Analytics"],
+      "salary_range": {"min": 65000, "max": 115000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Increasing need for data-driven marketing and growth strategies across all digital businesses",
+      "growth_rate": 21,
+      "tools_and_technologies": ["SQL", "Google Analytics", "Mixpanel", "Excel", "Python", "Tableau"],
+      "related_roles": ["R004", "R011", "R008"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Statistical Analysis", "Data Visualization", "A/B Testing", "Communication"],
+        "intermediate": ["Python", "Business Intelligence", "Market Research", "Business Analysis"],
+        "advanced": ["Machine Learning", "Advanced A/B Testing", "Product Management"]
+      }
+    },
+    {
+      "role_id": "R011",
+      "title": "Product Manager",
+      "category": "Product & Analytics",
+      "subcategory": "Product",
+      "description": "Product Managers define the vision, strategy, and roadmap for products. They work at the intersection of business, technology, and user experience, prioritising what gets built and why.",
+      "responsibilities": [
+        "Define product vision and strategy aligned with business goals",
+        "Gather and prioritise product requirements from stakeholders",
+        "Work with engineering and design teams to deliver features",
+        "Analyse product metrics and user feedback to drive decisions",
+        "Communicate product roadmap to executives and teams"
+      ],
+      "focus_areas": ["Product Strategy", "Roadmapping", "Stakeholder Management", "User Empathy"],
+      "salary_range": {"min": 95000, "max": 175000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Every tech product requires skilled PMs; strong demand across SaaS, consumer, and enterprise",
+      "growth_rate": 19,
+      "tools_and_technologies": ["Jira", "Figma", "Mixpanel", "SQL", "Excel", "Notion"],
+      "related_roles": ["R010", "R012", "R025"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Business Analysis", "Collaboration & Teamwork", "Critical Thinking", "SQL"],
+        "intermediate": ["Product Management", "Market Research", "A/B Testing", "Agile / Scrum", "Data Visualization"],
+        "advanced": ["Statistical Analysis", "UX Design basics", "Python basics", "Project Management"]
+      }
+    },
+    {
+      "role_id": "R012",
+      "title": "Business Analyst",
+      "category": "Product & Analytics",
+      "subcategory": "Business Analysis",
+      "description": "Business Analysts bridge the gap between business needs and technology solutions. They analyse processes, gather requirements, and help organisations improve efficiency and achieve goals.",
+      "responsibilities": [
+        "Gather and document business requirements from stakeholders",
+        "Analyse existing processes and identify improvement opportunities",
+        "Translate business requirements into technical specifications",
+        "Facilitate workshops and interviews with stakeholders",
+        "Validate solutions against original requirements"
+      ],
+      "focus_areas": ["Requirements Gathering", "Process Analysis", "Stakeholder Management", "Documentation"],
+      "salary_range": {"min": 65000, "max": 115000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Steady need for professionals who bridge business and technology across all industries",
+      "growth_rate": 11,
+      "tools_and_technologies": ["Excel", "SQL", "Visio", "Jira", "Confluence", "Power BI"],
+      "related_roles": ["R011", "R010", "R004"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Business Analysis", "Critical Thinking", "SQL", "Collaboration & Teamwork"],
+        "intermediate": ["Data Visualization", "Statistical Analysis", "Project Management", "Agile / Scrum"],
+        "advanced": ["Business Intelligence", "Machine Learning basics", "Market Research"]
+      }
+    },
+    {
+      "role_id": "R013",
+      "title": "Strategy Consultant",
+      "category": "Product & Analytics",
+      "subcategory": "Strategy",
+      "description": "Strategy Consultants help organisations solve complex business problems and make strategic decisions. They analyse markets, competitors, and operations to deliver data-backed recommendations.",
+      "responsibilities": [
+        "Conduct market and competitive landscape analysis",
+        "Develop strategic recommendations for clients",
+        "Build financial and business models to support decisions",
+        "Present insights and recommendations to senior leadership",
+        "Manage client relationships and project delivery"
+      ],
+      "focus_areas": ["Business Strategy", "Market Analysis", "Problem Structuring", "Executive Communication"],
+      "salary_range": {"min": 85000, "max": 180000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Demand for strategic advisory remains strong during digital transformation and economic uncertainty",
+      "growth_rate": 14,
+      "tools_and_technologies": ["Excel", "PowerPoint", "SQL", "Tableau", "Python basics"],
+      "related_roles": ["R012", "R011", "R010"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Critical Thinking", "Problem Solving", "Market Research", "Business Analysis"],
+        "intermediate": ["Statistical Analysis", "Data Visualization", "Project Management", "SQL"],
+        "advanced": ["Business Intelligence", "Financial Modelling", "Python", "Machine Learning basics"]
+      }
+    },
+    {
+      "role_id": "R014",
+      "title": "Operations Analyst",
+      "category": "Product & Analytics",
+      "subcategory": "Operations",
+      "description": "Operations Analysts improve the efficiency and effectiveness of business operations through data analysis, process improvement, and system design.",
+      "responsibilities": [
+        "Analyse operational data to identify inefficiencies",
+        "Design and implement process improvements",
+        "Build reports and dashboards to monitor operations",
+        "Work with operations teams to implement changes",
+        "Track and report on performance metrics"
+      ],
+      "focus_areas": ["Process Optimisation", "Operations Data", "KPI Tracking", "Cross-functional Collaboration"],
+      "salary_range": {"min": 55000, "max": 95000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Every organisation needs to optimise operations, especially with supply chain and logistics complexity",
+      "growth_rate": 8,
+      "tools_and_technologies": ["SQL", "Excel", "Tableau", "Python", "Jira"],
+      "related_roles": ["R012", "R004", "R011"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Excel", "Statistical Analysis", "Communication", "Problem Solving"],
+        "intermediate": ["Data Visualization", "Business Analysis", "Project Management", "Business Intelligence"],
+        "advanced": ["Python", "Machine Learning basics", "Agile / Scrum"]
+      }
+    },
+    {
+      "role_id": "R015",
+      "title": "Backend Developer",
+      "category": "Software Engineering",
+      "subcategory": "Backend",
+      "description": "Backend Developers build the server-side logic, databases, and APIs that power applications. They focus on performance, scalability, and reliability of the systems that users and clients interact with.",
+      "responsibilities": [
+        "Design and implement server-side application logic",
+        "Build and maintain REST APIs and microservices",
+        "Design and optimise database schemas and queries",
+        "Ensure application security, performance, and reliability",
+        "Write unit and integration tests"
+      ],
+      "focus_areas": ["APIs", "Database Design", "Server-side Logic", "Scalability"],
+      "salary_range": {"min": 85000, "max": 155000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Backend development is fundamental to every software product; massive ongoing demand",
+      "growth_rate": 22,
+      "tools_and_technologies": ["Python", "Java", "Node.js", "SQL", "Docker", "AWS", "Redis"],
+      "related_roles": ["R016", "R017", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Python or Java", "SQL", "REST API Design", "Git / Version Control", "Database Design"],
+        "intermediate": ["System Design", "Docker", "NoSQL Databases", "Microservices", "Linux / Shell Scripting"],
+        "advanced": ["Kubernetes", "Cloud Platforms", "CI/CD Pipelines", "Cybersecurity"]
+      }
+    },
+    {
+      "role_id": "R016",
+      "title": "Frontend Developer",
+      "category": "Software Engineering",
+      "subcategory": "Frontend",
+      "description": "Frontend Developers build the user-facing side of web applications, creating the interfaces users see and interact with. They translate designs into functional, accessible, and performant web experiences.",
+      "responsibilities": [
+        "Build responsive and accessible web interfaces using HTML, CSS, and JavaScript",
+        "Implement UI components using frameworks like React or Vue",
+        "Collaborate with designers to implement visual designs accurately",
+        "Optimise web performance and page load times",
+        "Write unit and end-to-end tests for frontend code"
+      ],
+      "focus_areas": ["React / Vue", "Responsive Design", "Performance", "Accessibility"],
+      "salary_range": {"min": 75000, "max": 140000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Web remains the primary delivery platform for software; demand for skilled frontend devs is sustained",
+      "growth_rate": 16,
+      "tools_and_technologies": ["JavaScript", "TypeScript", "React", "HTML/CSS", "Webpack", "Jest"],
+      "related_roles": ["R015", "R017", "R024"],
+      "learning_roadmap": {
+        "foundation": ["HTML/CSS", "JavaScript", "Git / Version Control", "Communication", "Problem Solving"],
+        "intermediate": ["TypeScript", "React", "REST API Design", "Accessibility (WCAG)", "Testing"],
+        "advanced": ["System Design", "Performance Optimisation", "CI/CD Pipelines", "Microservices"]
+      }
+    },
+    {
+      "role_id": "R017",
+      "title": "Full Stack Developer",
+      "category": "Software Engineering",
+      "subcategory": "Full Stack",
+      "description": "Full Stack Developers are comfortable building both frontend and backend components of web applications. They have breadth across the stack, making them valuable for startups and cross-functional teams.",
+      "responsibilities": [
+        "Build end-to-end features spanning frontend and backend systems",
+        "Design database schemas and write server-side logic",
+        "Implement responsive user interfaces",
+        "Deploy applications and configure cloud infrastructure",
+        "Collaborate with designers and product managers"
+      ],
+      "focus_areas": ["End-to-end Development", "APIs", "UI Development", "Deployment"],
+      "salary_range": {"min": 80000, "max": 150000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "High demand especially in startups and mid-size companies that value breadth over specialisation",
+      "growth_rate": 20,
+      "tools_and_technologies": ["JavaScript", "TypeScript", "React", "Node.js", "SQL", "Docker", "AWS"],
+      "related_roles": ["R015", "R016", "R018"],
+      "learning_roadmap": {
+        "foundation": ["HTML/CSS", "JavaScript", "SQL", "Git / Version Control", "REST API Design"],
+        "intermediate": ["TypeScript", "React", "Docker", "NoSQL Databases", "Linux / Shell Scripting"],
+        "advanced": ["Cloud Platforms", "System Design", "CI/CD Pipelines", "Microservices"]
+      }
+    },
+    {
+      "role_id": "R018",
+      "title": "Software Architect",
+      "category": "Software Engineering",
+      "subcategory": "Architecture",
+      "description": "Software Architects make high-level design decisions and establish technical standards for software systems. They ensure that systems are scalable, maintainable, and aligned with business requirements.",
+      "responsibilities": [
+        "Design system architectures and evaluate trade-offs",
+        "Define technical standards, patterns, and best practices",
+        "Review code and architecture decisions across teams",
+        "Work with stakeholders to align technical direction with business goals",
+        "Evaluate and select technologies and third-party services"
+      ],
+      "focus_areas": ["System Design", "Technical Leadership", "Architecture Patterns", "Scalability"],
+      "salary_range": {"min": 130000, "max": 210000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Senior-level role with specialised demand; increasingly important as systems grow in complexity",
+      "growth_rate": 13,
+      "tools_and_technologies": ["Various languages", "Cloud Platforms", "Docker", "Kubernetes", "System Design tools"],
+      "related_roles": ["R015", "R017", "R019"],
+      "learning_roadmap": {
+        "foundation": ["Python or Java", "SQL", "System Design", "Git / Version Control", "REST API Design"],
+        "intermediate": ["Microservices", "Cloud Platforms", "Docker", "Kubernetes", "Communication"],
+        "advanced": ["Enterprise Architecture", "CI/CD Pipelines", "Security Design", "Leadership"]
+      }
+    },
+    {
+      "role_id": "R019",
+      "title": "Mobile Developer (iOS/Android)",
+      "category": "Software Engineering",
+      "subcategory": "Mobile",
+      "description": "Mobile Developers build applications for smartphones and tablets. They specialise in native iOS (Swift), Android (Kotlin), or cross-platform (Flutter/React Native) development.",
+      "responsibilities": [
+        "Build native or cross-platform mobile applications",
+        "Integrate with backend APIs and third-party SDKs",
+        "Ensure smooth performance and great UX on mobile devices",
+        "Handle platform-specific features like cameras and notifications",
+        "Submit and manage app store releases"
+      ],
+      "focus_areas": ["Mobile UX", "Native APIs", "Performance", "App Store Deployment"],
+      "salary_range": {"min": 85000, "max": 155000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Mobile-first world driving sustained demand for developers who can build polished native experiences",
+      "growth_rate": 19,
+      "tools_and_technologies": ["Swift", "Kotlin", "Flutter", "React Native", "Xcode", "Android Studio"],
+      "related_roles": ["R016", "R017", "R024"],
+      "learning_roadmap": {
+        "foundation": ["iOS / Android Development", "JavaScript or Java", "Git / Version Control", "REST API Design"],
+        "intermediate": ["System Design", "Database Design", "Accessibility (WCAG)", "CI/CD Pipelines"],
+        "advanced": ["Cloud Platforms", "Performance Optimisation", "Security", "App Store Optimisation"]
+      }
+    },
+    {
+      "role_id": "R020",
+      "title": "Game Developer",
+      "category": "Software Engineering",
+      "subcategory": "Games",
+      "description": "Game Developers design and build interactive games and simulations. They work with game engines, graphics, physics, and gameplay programming to create immersive experiences.",
+      "responsibilities": [
+        "Implement gameplay mechanics, physics, and AI using game engines",
+        "Write performant C++ or C# code for game systems",
+        "Collaborate with artists, designers, and audio engineers",
+        "Optimise game performance for target platforms",
+        "Debug and profile complex real-time systems"
+      ],
+      "focus_areas": ["Gameplay Programming", "Graphics", "Physics Simulation", "Performance Optimisation"],
+      "salary_range": {"min": 75000, "max": 150000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Gaming is one of the largest entertainment industries; demand stable with peaks in mobile and VR/AR",
+      "growth_rate": 14,
+      "tools_and_technologies": ["C++", "C#", "Unity", "Unreal Engine", "OpenGL", "DirectX"],
+      "related_roles": ["R021", "R016"],
+      "learning_roadmap": {
+        "foundation": ["C/C++", "Mathematics / Linear Algebra", "Game Engines (Unity/Unreal)", "Git / Version Control"],
+        "intermediate": ["3D Graphics / OpenGL", "Physics Simulation", "Problem Solving", "Collaboration & Teamwork"],
+        "advanced": ["Shader Programming", "Networking for Games", "VR/AR Development", "Performance Profiling"]
+      }
+    },
+    {
+      "role_id": "R021",
+      "title": "Embedded Systems Engineer",
+      "category": "Software Engineering",
+      "subcategory": "Embedded",
+      "description": "Embedded Systems Engineers develop software for hardware-constrained devices such as IoT sensors, automotive systems, medical devices, and industrial controllers.",
+      "responsibilities": [
+        "Write low-level C/C++ firmware for microcontrollers",
+        "Interface with hardware components and communication protocols",
+        "Optimise code for memory and processing constraints",
+        "Debug hardware-software integration issues",
+        "Ensure safety and reliability requirements are met"
+      ],
+      "focus_areas": ["Firmware", "Hardware Interfacing", "Real-time Systems", "Low-level Programming"],
+      "salary_range": {"min": 80000, "max": 145000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "IoT expansion and automotive electrification driving demand for embedded talent",
+      "growth_rate": 17,
+      "tools_and_technologies": ["C/C++", "RTOS", "ARM", "JTAG", "Linux", "CAN bus"],
+      "related_roles": ["R020"],
+      "learning_roadmap": {
+        "foundation": ["C/C++", "Embedded Systems", "Linux / Shell Scripting", "Networking / TCP-IP", "Mathematics / Linear Algebra"],
+        "intermediate": ["Real-time OS", "Hardware Protocols", "Python scripting", "Git / Version Control"],
+        "advanced": ["FPGA", "Safety Standards (ISO 26262)", "Signal Processing", "Rust"]
+      }
+    },
+    {
+      "role_id": "R022",
+      "title": "API Developer",
+      "category": "Software Engineering",
+      "subcategory": "Backend",
+      "description": "API Developers specialise in designing, building, and maintaining APIs that allow different systems and applications to communicate. They focus on RESTful, GraphQL, and event-driven interfaces.",
+      "responsibilities": [
+        "Design API contracts and schemas",
+        "Implement and document REST and GraphQL APIs",
+        "Ensure API security, versioning, and performance",
+        "Write SDKs and developer documentation",
+        "Manage API gateways and rate limiting"
+      ],
+      "focus_areas": ["API Design", "Documentation", "Security", "Developer Experience"],
+      "salary_range": {"min": 80000, "max": 145000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "API economy is foundational to modern software; every SaaS product needs well-designed APIs",
+      "growth_rate": 20,
+      "tools_and_technologies": ["Python", "Node.js", "GraphQL", "Swagger/OpenAPI", "Postman", "AWS API Gateway"],
+      "related_roles": ["R015", "R017", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Python or JavaScript", "REST API Design", "SQL", "Git / Version Control", "HTTP fundamentals"],
+        "intermediate": ["GraphQL", "Docker", "Database Design", "Security", "Technical Writing"],
+        "advanced": ["System Design", "Microservices", "Cloud Platforms", "CI/CD Pipelines"]
+      }
+    },
+    {
+      "role_id": "R023",
+      "title": "UX Designer",
+      "category": "UX & Design",
+      "subcategory": "UX",
+      "description": "UX Designers create meaningful and usable digital experiences. They research user needs, design interaction flows, and validate solutions through testing to ensure products are intuitive and effective.",
+      "responsibilities": [
+        "Conduct user research including interviews, surveys, and usability tests",
+        "Create user journeys, wireframes, and interactive prototypes",
+        "Collaborate with UI designers and developers to deliver designs",
+        "Analyse user feedback and iterate on designs",
+        "Advocate for user needs in product decisions"
+      ],
+      "focus_areas": ["User Research", "Interaction Design", "Prototyping", "Usability Testing"],
+      "salary_range": {"min": 75000, "max": 140000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "User experience is a key competitive differentiator; demand growing as product quality bar rises",
+      "growth_rate": 22,
+      "tools_and_technologies": ["Figma", "Maze", "Miro", "UserTesting", "Hotjar", "Notion"],
+      "related_roles": ["R024", "R025", "R026"],
+      "learning_roadmap": {
+        "foundation": ["User Research", "UX Design", "Prototyping", "Communication", "Critical Thinking"],
+        "intermediate": ["Figma / Design Tools", "Usability Testing", "Information Architecture", "Collaboration & Teamwork"],
+        "advanced": ["Design Systems", "Accessibility (WCAG)", "Quantitative Research", "Service Design"]
+      }
+    },
+    {
+      "role_id": "R024",
+      "title": "UI Designer",
+      "category": "UX & Design",
+      "subcategory": "UI",
+      "description": "UI Designers create the visual elements of digital interfaces—typography, colour, layout, and components. They work closely with UX designers and developers to produce polished, consistent designs.",
+      "responsibilities": [
+        "Design high-fidelity visual interfaces and component libraries",
+        "Create and maintain design systems",
+        "Ensure visual consistency across products",
+        "Collaborate with developers on implementation",
+        "Iterate designs based on user and stakeholder feedback"
+      ],
+      "focus_areas": ["Visual Design", "Component Libraries", "Design Systems", "Typography & Colour"],
+      "salary_range": {"min": 65000, "max": 120000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Strong demand especially in product companies investing heavily in design quality",
+      "growth_rate": 13,
+      "tools_and_technologies": ["Figma", "Sketch", "Adobe XD", "Zeplin", "CSS"],
+      "related_roles": ["R023", "R025", "R016"],
+      "learning_roadmap": {
+        "foundation": ["UI Design", "Figma / Design Tools", "HTML/CSS basics", "Communication", "Collaboration & Teamwork"],
+        "intermediate": ["Design Systems", "UX Design basics", "Prototyping", "Accessibility (WCAG)"],
+        "advanced": ["Motion Design", "Advanced Typography", "User Research basics", "Frontend basics"]
+      }
+    },
+    {
+      "role_id": "R025",
+      "title": "UX Researcher",
+      "category": "UX & Design",
+      "subcategory": "Research",
+      "description": "UX Researchers are specialists in understanding user behaviour, needs, and motivations. They design and conduct qualitative and quantitative research studies to inform product decisions.",
+      "responsibilities": [
+        "Design and conduct qualitative research (interviews, ethnographic studies)",
+        "Run quantitative surveys and analyse results",
+        "Synthesise research findings into actionable insights",
+        "Present research findings to design and product teams",
+        "Advocate for evidence-based design decisions"
+      ],
+      "focus_areas": ["Qualitative Research", "Quantitative Research", "Research Synthesis", "Stakeholder Communication"],
+      "salary_range": {"min": 75000, "max": 140000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Growing recognition that user research reduces costly product failures and increases retention",
+      "growth_rate": 18,
+      "tools_and_technologies": ["Maze", "UserTesting", "Dovetail", "Qualtrics", "Figma", "SPSS"],
+      "related_roles": ["R023", "R026", "R011"],
+      "learning_roadmap": {
+        "foundation": ["User Research", "Communication", "Critical Thinking", "Statistical Analysis basics", "Collaboration & Teamwork"],
+        "intermediate": ["Prototyping", "UX Design", "Quantitative Research", "Research Synthesis"],
+        "advanced": ["Figma / Design Tools", "Advanced Statistics", "Experimental Design", "Accessibility (WCAG)"]
+      }
+    },
+    {
+      "role_id": "R026",
+      "title": "Interaction Designer",
+      "category": "UX & Design",
+      "subcategory": "Interaction Design",
+      "description": "Interaction Designers focus on how users interact with digital products—micro-interactions, transitions, gestures, and feedback. They bridge UX and UI, focusing on behaviour and motion design.",
+      "responsibilities": [
+        "Design and document interaction patterns and micro-interactions",
+        "Create detailed prototypes that simulate real product behaviour",
+        "Develop motion design guidelines",
+        "Work with engineers to implement interactions precisely",
+        "Conduct usability testing on interaction patterns"
+      ],
+      "focus_areas": ["Micro-interactions", "Motion Design", "Prototyping", "Behavioural Design"],
+      "salary_range": {"min": 70000, "max": 130000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Rising product quality expectations creating demand for specialists in interaction quality",
+      "growth_rate": 16,
+      "tools_and_technologies": ["Figma", "Principle", "Framer", "After Effects", "ProtoPie"],
+      "related_roles": ["R023", "R024", "R025"],
+      "learning_roadmap": {
+        "foundation": ["UX Design", "Prototyping", "Figma / Design Tools", "UI Design", "Communication"],
+        "intermediate": ["Motion Design", "Accessibility (WCAG)", "User Research", "Design Systems"],
+        "advanced": ["Advanced Animation", "Frontend basics", "Behavioural Psychology", "Design Systems"]
+      }
+    },
+    {
+      "role_id": "R027",
+      "title": "Product Designer",
+      "category": "UX & Design",
+      "subcategory": "Product Design",
+      "description": "Product Designers own the end-to-end design of digital products, spanning user research, UX flows, and visual design. They work across strategy and execution to shape the full user experience.",
+      "responsibilities": [
+        "Own the end-to-end design process for product features",
+        "Balance user needs with business goals and technical constraints",
+        "Create research-informed wireframes and high-fidelity designs",
+        "Build and maintain components in the design system",
+        "Present and defend design decisions to stakeholders"
+      ],
+      "focus_areas": ["End-to-end Product Design", "Design Systems", "User Advocacy", "Cross-functional Collaboration"],
+      "salary_range": {"min": 90000, "max": 160000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Design-led product development widely adopted; senior product designers increasingly influential in companies",
+      "growth_rate": 24,
+      "tools_and_technologies": ["Figma", "Miro", "Maze", "Notion", "HTML/CSS basics"],
+      "related_roles": ["R023", "R024", "R011"],
+      "learning_roadmap": {
+        "foundation": ["UX Design", "UI Design", "Prototyping", "User Research", "Communication"],
+        "intermediate": ["Design Systems", "Figma / Design Tools", "Accessibility (WCAG)", "Critical Thinking"],
+        "advanced": ["Frontend basics", "Product Management basics", "Quantitative Research", "Service Design"]
+      }
+    },
+    {
+      "role_id": "R028",
+      "title": "Accessibility Specialist",
+      "category": "UX & Design",
+      "subcategory": "Accessibility",
+      "description": "Accessibility Specialists ensure digital products are usable by people with disabilities. They audit products for WCAG compliance, train teams, and advocate for inclusive design practices.",
+      "responsibilities": [
+        "Audit products for WCAG 2.1/2.2 compliance",
+        "Train design and development teams on accessibility",
+        "Write accessibility guidelines and documentation",
+        "Work with assistive technology users on testing",
+        "Advocate for inclusive design at the product level"
+      ],
+      "focus_areas": ["WCAG Compliance", "Inclusive Design", "Assistive Technology", "Accessibility Auditing"],
+      "salary_range": {"min": 70000, "max": 130000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Growing legal requirements (ADA, EAA) and genuine user need driving investment in accessibility expertise",
+      "growth_rate": 28,
+      "tools_and_technologies": ["NVDA", "VoiceOver", "axe DevTools", "WAVE", "HTML/CSS", "Figma"],
+      "related_roles": ["R023", "R024", "R016"],
+      "learning_roadmap": {
+        "foundation": ["Accessibility (WCAG)", "UX Design", "HTML/CSS", "Communication", "User Research"],
+        "intermediate": ["Assistive Technology Testing", "UI Design", "Prototyping", "Agile / Scrum"],
+        "advanced": ["Frontend Development basics", "Legal Frameworks", "Advanced ARIA", "Design Systems"]
+      }
+    },
+    {
+      "role_id": "R029",
+      "title": "DevOps Engineer",
+      "category": "DevOps & Cloud",
+      "subcategory": "DevOps",
+      "description": "DevOps Engineers bridge development and operations, building and maintaining the infrastructure and workflows that let teams deliver software faster and more reliably.",
+      "responsibilities": [
+        "Build and maintain CI/CD pipelines for automated deployments",
+        "Manage cloud infrastructure using IaC tools like Terraform",
+        "Monitor system health, performance, and reliability",
+        "Automate repetitive operational tasks",
+        "Collaborate with developers on deployment strategies"
+      ],
+      "focus_areas": ["CI/CD", "Infrastructure as Code", "Monitoring", "Automation"],
+      "salary_range": {"min": 95000, "max": 165000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "DevOps practices now standard across engineering organisations; strong demand shows no sign of slowing",
+      "growth_rate": 25,
+      "tools_and_technologies": ["Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions", "AWS", "Prometheus"],
+      "related_roles": ["R030", "R031", "R032"],
+      "learning_roadmap": {
+        "foundation": ["Linux / Shell Scripting", "Git / Version Control", "Docker", "CI/CD Pipelines", "Python"],
+        "intermediate": ["Kubernetes", "Cloud Platforms (AWS/GCP/Azure)", "Terraform / IaC", "Networking / TCP-IP"],
+        "advanced": ["Service Mesh", "Observability", "Cybersecurity", "System Design"]
+      }
+    },
+    {
+      "role_id": "R030",
+      "title": "Cloud Architect",
+      "category": "DevOps & Cloud",
+      "subcategory": "Cloud",
+      "description": "Cloud Architects design enterprise-scale cloud environments. They define cloud strategy, select services, design for security and cost-efficiency, and lead cloud migrations.",
+      "responsibilities": [
+        "Design scalable, secure, and cost-efficient cloud architectures",
+        "Lead cloud migration strategies and execution",
+        "Define cloud governance, security, and compliance policies",
+        "Evaluate and select cloud services across providers",
+        "Guide engineering teams on cloud best practices"
+      ],
+      "focus_areas": ["Cloud Architecture", "Cost Optimisation", "Security & Compliance", "Migration Strategy"],
+      "salary_range": {"min": 130000, "max": 220000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Cloud adoption accelerating globally; architects needed to design compliant, cost-efficient systems",
+      "growth_rate": 27,
+      "tools_and_technologies": ["AWS", "GCP", "Azure", "Terraform", "Kubernetes", "CloudFormation", "Security tools"],
+      "related_roles": ["R029", "R031", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Cloud Platforms (AWS/GCP/Azure)", "Linux / Shell Scripting", "Networking / TCP-IP", "Docker", "Python"],
+        "intermediate": ["Terraform / IaC", "Kubernetes", "Cybersecurity", "System Design", "CI/CD Pipelines"],
+        "advanced": ["Enterprise Architecture", "Cost Engineering", "Multi-cloud Strategy", "Compliance Frameworks"]
+      }
+    },
+    {
+      "role_id": "R031",
+      "title": "Site Reliability Engineer (SRE)",
+      "category": "DevOps & Cloud",
+      "subcategory": "Reliability",
+      "description": "SREs apply software engineering principles to operations, focusing on reliability, scalability, and performance of production systems. They define SLOs and manage incidents.",
+      "responsibilities": [
+        "Define and monitor SLOs, SLAs, and error budgets",
+        "Respond to and lead incident management",
+        "Build tooling to improve system reliability and observability",
+        "Conduct post-mortems and drive systemic improvements",
+        "Automate toil and manual operational tasks"
+      ],
+      "focus_areas": ["Reliability", "Observability", "Incident Management", "Automation"],
+      "salary_range": {"min": 115000, "max": 185000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Critical for production systems at scale; SRE teams now standard in mid-to-large engineering orgs",
+      "growth_rate": 23,
+      "tools_and_technologies": ["Python", "Go", "Kubernetes", "Prometheus", "Grafana", "PagerDuty", "Linux"],
+      "related_roles": ["R029", "R030", "R015"],
+      "learning_roadmap": {
+        "foundation": ["Linux / Shell Scripting", "Python", "Networking / TCP-IP", "Docker", "Git / Version Control"],
+        "intermediate": ["Kubernetes", "Cloud Platforms", "CI/CD Pipelines", "Monitoring & Observability"],
+        "advanced": ["System Design", "Distributed Systems", "Chaos Engineering", "Cybersecurity"]
+      }
+    },
+    {
+      "role_id": "R032",
+      "title": "Platform Engineer",
+      "category": "DevOps & Cloud",
+      "subcategory": "Platform",
+      "description": "Platform Engineers build internal developer platforms and tooling that enable product teams to deploy, operate, and observe their services independently.",
+      "responsibilities": [
+        "Build and maintain internal developer platforms (IDPs)",
+        "Define golden paths for service deployment and observability",
+        "Abstract infrastructure complexity for product engineers",
+        "Manage shared infrastructure components and services",
+        "Drive developer experience improvements"
+      ],
+      "focus_areas": ["Internal Developer Platform", "Developer Experience", "Infrastructure Abstraction", "Self-service Tooling"],
+      "salary_range": {"min": 105000, "max": 175000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Emerging discipline gaining traction as engineering organisations seek to scale developer productivity",
+      "growth_rate": 30,
+      "tools_and_technologies": ["Kubernetes", "Backstage", "Terraform", "Helm", "GitHub Actions", "Go", "Python"],
+      "related_roles": ["R029", "R031", "R018"],
+      "learning_roadmap": {
+        "foundation": ["Linux / Shell Scripting", "Docker", "Cloud Platforms", "Python", "Git / Version Control"],
+        "intermediate": ["Kubernetes", "Terraform / IaC", "CI/CD Pipelines", "System Design"],
+        "advanced": ["Platform Product Thinking", "Developer Experience", "Service Mesh", "Go"]
+      }
+    },
+    {
+      "role_id": "R033",
+      "title": "Security Engineer",
+      "category": "DevOps & Cloud",
+      "subcategory": "Security",
+      "description": "Security Engineers design and implement security controls, threat models, and defences for software systems. They work across the SDLC to embed security into product development.",
+      "responsibilities": [
+        "Design and implement security architecture and controls",
+        "Conduct threat modelling and security reviews",
+        "Perform penetration testing and vulnerability assessments",
+        "Build and maintain security tooling and automation",
+        "Respond to and lead security incidents"
+      ],
+      "focus_areas": ["Application Security", "Threat Modelling", "Penetration Testing", "Security Automation"],
+      "salary_range": {"min": 110000, "max": 190000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Cybersecurity threats escalating globally; massive shortage of qualified security engineers",
+      "growth_rate": 33,
+      "tools_and_technologies": ["Python", "Burp Suite", "Nmap", "Terraform", "AWS Security", "SIEM tools"],
+      "related_roles": ["R029", "R030", "R031"],
+      "learning_roadmap": {
+        "foundation": ["Cybersecurity", "Networking / TCP-IP", "Linux / Shell Scripting", "Python", "Cloud Platforms"],
+        "intermediate": ["Penetration Testing", "Docker", "CI/CD Pipelines", "Cryptography basics"],
+        "advanced": ["Advanced Threat Modelling", "Red Team / Blue Team", "Compliance Frameworks", "Kubernetes Security"]
+      }
+    },
+    {
+      "role_id": "R034",
+      "title": "Network Engineer",
+      "category": "DevOps & Cloud",
+      "subcategory": "Networking",
+      "description": "Network Engineers design, implement, and manage computer networks that connect systems and enable communication. They work on LAN/WAN, routing, switching, and network security.",
+      "responsibilities": [
+        "Design and configure network topologies and routing protocols",
+        "Manage firewalls, load balancers, and network security policies",
+        "Monitor network performance and troubleshoot issues",
+        "Plan and execute network infrastructure upgrades",
+        "Document network architecture and configurations"
+      ],
+      "focus_areas": ["Network Architecture", "Routing & Switching", "Network Security", "Performance Monitoring"],
+      "salary_range": {"min": 75000, "max": 135000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Foundational role; demand stable with growing need for cloud networking expertise",
+      "growth_rate": 10,
+      "tools_and_technologies": ["Cisco IOS", "Juniper", "Python", "Wireshark", "Ansible", "OSPF/BGP"],
+      "related_roles": ["R033", "R030"],
+      "learning_roadmap": {
+        "foundation": ["Networking / TCP-IP", "Linux / Shell Scripting", "Cybersecurity", "Python"],
+        "intermediate": ["Cloud Platforms", "Terraform / IaC", "Docker networking", "Firewalls & VPNs"],
+        "advanced": ["SDN / Network Automation", "Cloud Networking", "Advanced Security", "BGP / MPLS"]
+      }
+    },
+    {
+      "role_id": "R035",
+      "title": "Reinforcement Learning Engineer",
+      "category": "Data & AI",
+      "subcategory": "Specialised ML",
+      "description": "Reinforcement Learning Engineers design and train agents that learn to make sequences of decisions through interaction with environments. Applications include robotics, games, and autonomous systems.",
+      "responsibilities": [
+        "Design RL environments and reward functions",
+        "Implement and tune RL algorithms (PPO, SAC, DQN)",
+        "Evaluate agent behaviour and diagnose training instabilities",
+        "Apply RL to real-world decision-making problems",
+        "Collaborate with robotics and simulation engineers"
+      ],
+      "focus_areas": ["RL Algorithms", "Simulation Environments", "Reward Shaping", "Policy Optimisation"],
+      "salary_range": {"min": 130000, "max": 220000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Niche but high-value specialisation growing with robotics, autonomous systems, and RLHF in LLMs",
+      "growth_rate": 38,
+      "tools_and_technologies": ["Python", "PyTorch", "OpenAI Gym", "Ray RLlib", "MuJoCo", "Isaac Sim"],
+      "related_roles": ["R002", "R003", "R006"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Machine Learning", "Mathematics / Linear Algebra", "Deep Learning"],
+        "intermediate": ["Reinforcement Learning theory", "Python simulation libraries", "Research Skills"],
+        "advanced": ["Custom RL Environments", "Multi-agent RL", "Real-world Robot Control", "RLHF"]
+      }
+    },
+    {
+      "role_id": "R036",
+      "title": "MLOps Engineer",
+      "category": "Data & AI",
+      "subcategory": "ML Engineering",
+      "description": "MLOps Engineers specialise in the operational side of machine learning—automating model training, deployment, monitoring, and retraining workflows to ensure production ML systems are reliable.",
+      "responsibilities": [
+        "Build automated ML training and evaluation pipelines",
+        "Set up model monitoring for drift and performance degradation",
+        "Manage model versioning, registration, and serving",
+        "Integrate ML workflows with CI/CD systems",
+        "Enable data scientists to deploy models self-service"
+      ],
+      "focus_areas": ["ML Pipelines", "Model Monitoring", "Model Serving", "Automation"],
+      "salary_range": {"min": 100000, "max": 170000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Growing recognition that most ML value is lost without proper operationalisation",
+      "growth_rate": 42,
+      "tools_and_technologies": ["Python", "MLflow", "Kubeflow", "Airflow", "Docker", "Kubernetes", "SageMaker"],
+      "related_roles": ["R002", "R007", "R029"],
+      "learning_roadmap": {
+        "foundation": ["Python", "Machine Learning", "Docker", "Git / Version Control", "Linux / Shell Scripting"],
+        "intermediate": ["MLOps", "Kubernetes", "CI/CD Pipelines", "Cloud Platforms", "SQL"],
+        "advanced": ["Feature Stores", "Model Monitoring", "Distributed Training", "System Design"]
+      }
+    },
+    {
+      "role_id": "R037",
+      "title": "Data Governance Analyst",
+      "category": "Data & AI",
+      "subcategory": "Data Management",
+      "description": "Data Governance Analysts establish and enforce policies for data quality, privacy, and lifecycle management across an organisation.",
+      "responsibilities": [
+        "Define and enforce data quality standards and policies",
+        "Maintain data catalogues and lineage documentation",
+        "Ensure compliance with GDPR and other data regulations",
+        "Work with data teams on data stewardship practices",
+        "Conduct data quality audits"
+      ],
+      "focus_areas": ["Data Quality", "Compliance", "Data Cataloguing", "Policy Enforcement"],
+      "salary_range": {"min": 70000, "max": 120000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "GDPR and data regulation globally creating demand for governance specialists",
+      "growth_rate": 20,
+      "tools_and_technologies": ["Collibra", "Alation", "SQL", "Python", "Excel"],
+      "related_roles": ["R004", "R007", "R012"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Communication", "Business Analysis", "Critical Thinking", "Data Wrangling"],
+        "intermediate": ["Statistical Analysis", "Data Visualization", "Project Management", "Regulatory Knowledge"],
+        "advanced": ["Python", "ETL Pipelines", "Business Intelligence", "GDPR & Compliance"]
+      }
+    },
+    {
+      "role_id": "R038",
+      "title": "Scrum Master",
+      "category": "Product & Analytics",
+      "subcategory": "Agile",
+      "description": "Scrum Masters facilitate Agile delivery processes for software teams. They coach teams on Scrum practices, remove impediments, and ensure continuous improvement.",
+      "responsibilities": [
+        "Facilitate Scrum ceremonies (stand-ups, retrospectives, sprint planning)",
+        "Remove blockers and impediments for the development team",
+        "Coach teams and stakeholders on Agile mindset",
+        "Track and communicate team velocity and capacity",
+        "Drive continuous improvement through retrospectives"
+      ],
+      "focus_areas": ["Agile Facilitation", "Team Coaching", "Process Improvement", "Stakeholder Management"],
+      "salary_range": {"min": 80000, "max": 135000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Agile adoption widespread; demand stable as organisations continue improving delivery practices",
+      "growth_rate": 8,
+      "tools_and_technologies": ["Jira", "Confluence", "Miro", "Slack"],
+      "related_roles": ["R011", "R012"],
+      "learning_roadmap": {
+        "foundation": ["Agile / Scrum", "Communication", "Collaboration & Teamwork", "Project Management", "Critical Thinking"],
+        "intermediate": ["Problem Solving", "Facilitation Techniques", "Metrics & Reporting"],
+        "advanced": ["Agile Scaling (SAFe)", "Leadership", "Organisational Change Management"]
+      }
+    },
+    {
+      "role_id": "R039",
+      "title": "Technical Writer",
+      "category": "Product & Analytics",
+      "subcategory": "Documentation",
+      "description": "Technical Writers create documentation that makes complex software and systems understandable. They produce API docs, user guides, tutorials, and developer documentation.",
+      "responsibilities": [
+        "Write, edit, and maintain technical documentation",
+        "Create API references, guides, and tutorials",
+        "Work with engineers to understand and document systems",
+        "Maintain documentation toolchains (docs-as-code)",
+        "Gather feedback and improve documentation quality"
+      ],
+      "focus_areas": ["Documentation", "API Writing", "Technical Communication", "Information Architecture"],
+      "salary_range": {"min": 65000, "max": 115000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Growing developer tool and API economy creating demand for quality technical writing",
+      "growth_rate": 12,
+      "tools_and_technologies": ["Markdown", "Docs-as-code tools", "Git", "REST API basics", "HTML basics"],
+      "related_roles": ["R022", "R011"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Critical Thinking", "HTML/CSS basics", "Git / Version Control"],
+        "intermediate": ["REST API Design basics", "Information Architecture", "Collaboration & Teamwork"],
+        "advanced": ["Programming basics", "UX Writing", "Docs-as-code pipelines"]
+      }
+    },
+    {
+      "role_id": "R040",
+      "title": "Cybersecurity Analyst",
+      "category": "DevOps & Cloud",
+      "subcategory": "Security",
+      "description": "Cybersecurity Analysts monitor, detect, and respond to security threats and incidents. They protect systems by implementing controls, analysing logs, and conducting threat intelligence.",
+      "responsibilities": [
+        "Monitor security alerts and investigate potential incidents",
+        "Analyse threat intelligence and vulnerability reports",
+        "Conduct security assessments and risk evaluations",
+        "Implement and manage security controls and tooling",
+        "Write incident reports and recommend remediation"
+      ],
+      "focus_areas": ["Threat Detection", "Incident Response", "Vulnerability Assessment", "Security Monitoring"],
+      "salary_range": {"min": 75000, "max": 135000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Cybersecurity threats increasing in frequency and sophistication; global talent shortage",
+      "growth_rate": 35,
+      "tools_and_technologies": ["SIEM", "Wireshark", "Nessus", "Splunk", "Python", "Linux"],
+      "related_roles": ["R033", "R034"],
+      "learning_roadmap": {
+        "foundation": ["Cybersecurity", "Networking / TCP-IP", "Linux / Shell Scripting", "Critical Thinking"],
+        "intermediate": ["Python", "Cloud Platforms", "Security Information & Event Management", "Incident Response"],
+        "advanced": ["Penetration Testing", "Threat Intelligence", "Forensics", "Advanced Networking"]
+      }
+    },
+    {
+      "role_id": "R041",
+      "title": "Data Architect",
+      "category": "Data & AI",
+      "subcategory": "Data Engineering",
+      "description": "Data Architects design the overall structure of data systems and platforms, setting standards for how data is stored, managed, accessed, and governed at scale.",
+      "responsibilities": [
+        "Design enterprise-wide data architecture strategies",
+        "Define data modelling standards and best practices",
+        "Select and evaluate data platform technologies",
+        "Guide data engineering teams on implementation",
+        "Ensure data architecture meets compliance and business needs"
+      ],
+      "focus_areas": ["Data Architecture", "Data Modelling", "Platform Strategy", "Governance"],
+      "salary_range": {"min": 120000, "max": 200000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "As data complexity grows, organisations need architects to create coherent, scalable data strategies",
+      "growth_rate": 21,
+      "tools_and_technologies": ["SQL", "Snowflake", "dbt", "Spark", "Python", "Terraform", "Cloud Platforms"],
+      "related_roles": ["R007", "R030", "R018"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Database Design", "ETL Pipelines", "Python", "Cloud Platforms"],
+        "intermediate": ["Big Data (Spark/Hadoop)", "NoSQL Databases", "Data Wrangling", "Communication"],
+        "advanced": ["Data Mesh", "Real-time Streaming", "Enterprise Architecture", "Governance Frameworks"]
+      }
+    },
+    {
+      "role_id": "R042",
+      "title": "Robotics Engineer",
+      "category": "Software Engineering",
+      "subcategory": "Embedded",
+      "description": "Robotics Engineers design and program robotic systems, combining hardware interfacing, control systems, and AI to build machines that can perceive and act in the real world.",
+      "responsibilities": [
+        "Design and implement robot perception, planning, and control systems",
+        "Work with ROS and simulation environments",
+        "Integrate sensors and actuators into robotic systems",
+        "Test and validate robot behaviour in simulation and the real world",
+        "Collaborate with mechanical and electrical engineers"
+      ],
+      "focus_areas": ["Robot Perception", "Motion Planning", "Control Systems", "ROS"],
+      "salary_range": {"min": 100000, "max": 175000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Autonomous vehicles, warehouse robotics, and surgical robots driving rapid growth in the field",
+      "growth_rate": 35,
+      "tools_and_technologies": ["Python", "C++", "ROS", "Gazebo", "OpenCV", "SLAM libraries"],
+      "related_roles": ["R006", "R021", "R035"],
+      "learning_roadmap": {
+        "foundation": ["Python", "C/C++", "Mathematics / Linear Algebra", "Embedded Systems"],
+        "intermediate": ["Computer Vision", "Machine Learning", "Linux / Shell Scripting", "3D Graphics / OpenGL"],
+        "advanced": ["Deep Learning", "SLAM", "Control Theory", "ROS2"]
+      }
+    },
+    {
+      "role_id": "R043",
+      "title": "AR/VR Developer",
+      "category": "Software Engineering",
+      "subcategory": "Immersive",
+      "description": "AR/VR Developers create immersive augmented and virtual reality applications for gaming, training, healthcare, and enterprise use cases.",
+      "responsibilities": [
+        "Develop AR/VR applications using Unity or Unreal Engine",
+        "Implement spatial computing features like tracking and hand interaction",
+        "Optimise performance for VR headsets and mobile AR",
+        "Collaborate with 3D artists and UX designers on immersive experiences",
+        "Test and debug on target hardware"
+      ],
+      "focus_areas": ["XR Development", "Spatial UI", "Performance Optimisation", "Immersive Storytelling"],
+      "salary_range": {"min": 85000, "max": 155000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Spatial computing gaining momentum with Vision Pro and Quest; enterprise XR training growing rapidly",
+      "growth_rate": 26,
+      "tools_and_technologies": ["Unity", "Unreal Engine", "ARKit", "ARCore", "C#", "C++"],
+      "related_roles": ["R020", "R016"],
+      "learning_roadmap": {
+        "foundation": ["C/C++ or C#", "Game Engines (Unity/Unreal)", "3D Graphics / OpenGL", "Mathematics / Linear Algebra"],
+        "intermediate": ["UX Design basics", "Performance Optimisation", "Spatial Computing APIs"],
+        "advanced": ["Shader Programming", "Computer Vision", "Machine Learning for XR"]
+      }
+    },
+    {
+      "role_id": "R044",
+      "title": "Blockchain Developer",
+      "category": "Software Engineering",
+      "subcategory": "Blockchain",
+      "description": "Blockchain Developers build decentralised applications, smart contracts, and protocols on blockchain platforms like Ethereum and Solana.",
+      "responsibilities": [
+        "Write and audit smart contracts in Solidity or Rust",
+        "Build dApps with blockchain integration",
+        "Implement token standards and DeFi protocols",
+        "Ensure security of smart contracts and on-chain logic",
+        "Work with cryptographic primitives and consensus mechanisms"
+      ],
+      "focus_areas": ["Smart Contracts", "Decentralised Apps", "Cryptography", "Protocol Design"],
+      "salary_range": {"min": 100000, "max": 180000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Web3 and DeFi ecosystem drives demand, though more cyclical than other engineering roles",
+      "growth_rate": 15,
+      "tools_and_technologies": ["Solidity", "Rust", "Ethereum", "Hardhat", "Web3.js", "Python"],
+      "related_roles": ["R015", "R022"],
+      "learning_roadmap": {
+        "foundation": ["Python", "JavaScript", "Cryptography basics", "REST API Design", "Git / Version Control"],
+        "intermediate": ["Solidity", "Rust", "Database Design", "System Design", "Cybersecurity"],
+        "advanced": ["ZK Proofs", "Protocol Design", "Smart Contract Auditing", "Distributed Systems"]
+      }
+    },
+    {
+      "role_id": "R045",
+      "title": "Cloud Data Engineer",
+      "category": "Data & AI",
+      "subcategory": "Data Engineering",
+      "description": "Cloud Data Engineers build and manage data infrastructure specifically on cloud platforms, leveraging managed services for scalable, serverless, and real-time data processing.",
+      "responsibilities": [
+        "Build serverless data pipelines using cloud-native services",
+        "Manage data lakes and cloud data warehouses",
+        "Implement real-time streaming data architectures",
+        "Ensure data security and compliance in cloud environments",
+        "Optimise cloud data costs and performance"
+      ],
+      "focus_areas": ["Cloud-native Pipelines", "Serverless", "Real-time Streaming", "Cost Optimisation"],
+      "salary_range": {"min": 100000, "max": 170000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Cloud-first strategies adopted across organisations; cloud data engineering is now the default",
+      "growth_rate": 31,
+      "tools_and_technologies": ["AWS (Glue, Redshift, Kinesis)", "GCP (BigQuery, Dataflow)", "dbt", "Python", "Terraform"],
+      "related_roles": ["R007", "R030", "R041"],
+      "learning_roadmap": {
+        "foundation": ["Python", "SQL", "Cloud Platforms (AWS/GCP/Azure)", "ETL Pipelines", "Database Design"],
+        "intermediate": ["Big Data (Spark/Hadoop)", "Terraform / IaC", "Docker", "Streaming Architectures"],
+        "advanced": ["Kubernetes", "Cost Engineering", "Data Architecture", "CI/CD Pipelines"]
+      }
+    },
+    {
+      "role_id": "R046",
+      "title": "Digital Product Manager",
+      "category": "Product & Analytics",
+      "subcategory": "Product",
+      "description": "Digital Product Managers oversee the strategy and execution of digital products, combining product thinking with digital analytics, experimentation, and growth strategies.",
+      "responsibilities": [
+        "Define digital product strategy and roadmap",
+        "Run data-driven experiments to improve product metrics",
+        "Work with design and engineering to build digital features",
+        "Analyse user behaviour data to identify opportunities",
+        "Prioritise backlog based on business impact and user need"
+      ],
+      "focus_areas": ["Digital Strategy", "Experimentation", "Growth", "Cross-functional Leadership"],
+      "salary_range": {"min": 100000, "max": 175000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Digital product sophistication increasing; every company is now a digital company",
+      "growth_rate": 22,
+      "tools_and_technologies": ["Amplitude", "Mixpanel", "Figma", "Jira", "SQL", "Looker"],
+      "related_roles": ["R011", "R010", "R023"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Product Management", "A/B Testing", "SQL", "Critical Thinking"],
+        "intermediate": ["Statistical Analysis", "Business Analysis", "UX Design basics", "Data Visualization"],
+        "advanced": ["Machine Learning basics", "Market Research", "Agile / Scrum", "Growth Analytics"]
+      }
+    },
+    {
+      "role_id": "R047",
+      "title": "Research Scientist (Academia / Industry)",
+      "category": "Data & AI",
+      "subcategory": "Research",
+      "description": "Research Scientists generate new knowledge through rigorous scientific inquiry. In industry they focus on applied research; in academia they contribute to fundamental scientific advances.",
+      "responsibilities": [
+        "Design and execute research experiments and studies",
+        "Analyse and synthesise results to draw conclusions",
+        "Write and publish papers in peer-reviewed venues",
+        "Present findings at conferences and to internal stakeholders",
+        "Collaborate with cross-disciplinary research teams"
+      ],
+      "focus_areas": ["Experimental Design", "Statistical Analysis", "Paper Writing", "Knowledge Synthesis"],
+      "salary_range": {"min": 90000, "max": 200000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Both academia and industry research labs growing; especially strong demand in AI research",
+      "growth_rate": 20,
+      "tools_and_technologies": ["Python", "R", "MATLAB", "LaTeX", "Statistical software", "PyTorch / TF"],
+      "related_roles": ["R003", "R001"],
+      "learning_roadmap": {
+        "foundation": ["Mathematics / Linear Algebra", "Statistical Analysis", "Research Skills", "Python", "R Programming"],
+        "intermediate": ["Machine Learning", "Deep Learning", "Data Wrangling", "Critical Thinking"],
+        "advanced": ["Research Paper Writing", "Experimental Design", "Domain Expertise", "Explainable AI"]
+      }
+    },
+    {
+      "role_id": "R048",
+      "title": "DevSecOps Engineer",
+      "category": "DevOps & Cloud",
+      "subcategory": "Security",
+      "description": "DevSecOps Engineers embed security practices into DevOps pipelines, ensuring security is built into software delivery from the start rather than added at the end.",
+      "responsibilities": [
+        "Integrate security scanning into CI/CD pipelines (SAST, DAST, SCA)",
+        "Build and maintain security automation tooling",
+        "Define secure-by-default infrastructure patterns",
+        "Train development teams on secure coding practices",
+        "Manage secrets and credential management systems"
+      ],
+      "focus_areas": ["Shift-left Security", "Pipeline Security", "Secrets Management", "Security Automation"],
+      "salary_range": {"min": 110000, "max": 185000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Security-in-SDLC regulatory requirements and increasing attack surface driving demand",
+      "growth_rate": 38,
+      "tools_and_technologies": ["Snyk", "Trivy", "Vault", "Terraform", "Docker", "Kubernetes", "Python"],
+      "related_roles": ["R029", "R033", "R040"],
+      "learning_roadmap": {
+        "foundation": ["Cybersecurity", "Linux / Shell Scripting", "Python", "Docker", "CI/CD Pipelines"],
+        "intermediate": ["Kubernetes", "Cloud Platforms", "Terraform / IaC", "SAST/DAST tooling"],
+        "advanced": ["Threat Modelling", "Zero Trust Architecture", "Compliance Frameworks", "Security Architecture"]
+      }
+    },
+    {
+      "role_id": "R049",
+      "title": "Digital Transformation Consultant",
+      "category": "Product & Analytics",
+      "subcategory": "Strategy",
+      "description": "Digital Transformation Consultants help organisations adopt digital technologies and change working practices to improve efficiency, customer experience, and competitive positioning.",
+      "responsibilities": [
+        "Assess clients' digital maturity and identify transformation opportunities",
+        "Define digital transformation roadmaps and change strategies",
+        "Lead workshops with executive and operational stakeholders",
+        "Track and report on transformation programme progress",
+        "Build business cases for technology investments"
+      ],
+      "focus_areas": ["Digital Strategy", "Change Management", "Stakeholder Engagement", "Technology Advisory"],
+      "salary_range": {"min": 90000, "max": 175000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "All industries undergoing digital transformation; consulting demand remains very strong",
+      "growth_rate": 18,
+      "tools_and_technologies": ["PowerPoint", "Excel", "Jira", "Miro", "SQL basics"],
+      "related_roles": ["R013", "R011", "R012"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Business Analysis", "Critical Thinking", "Project Management", "Problem Solving"],
+        "intermediate": ["Market Research", "Product Management basics", "Agile / Scrum", "Data Visualization"],
+        "advanced": ["SQL", "Machine Learning basics", "Cloud Platforms basics", "Change Management"]
+      }
+    },
+    {
+      "role_id": "R050",
+      "title": "AI Ethics Researcher",
+      "category": "Data & AI",
+      "subcategory": "AI Research",
+      "description": "AI Ethics Researchers study and address the social, ethical, and legal implications of artificial intelligence. They work on fairness, accountability, transparency, and safety in AI systems.",
+      "responsibilities": [
+        "Research and document AI fairness, bias, and safety issues",
+        "Develop frameworks and tools for responsible AI development",
+        "Work with policy makers, legal teams, and engineers",
+        "Audit AI systems for bias and harmful outcomes",
+        "Publish research and contribute to policy development"
+      ],
+      "focus_areas": ["AI Fairness", "Responsible AI", "Policy Development", "Bias Auditing"],
+      "salary_range": {"min": 90000, "max": 170000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Regulatory pressure (EU AI Act) and public accountability creating demand for AI ethics expertise",
+      "growth_rate": 40,
+      "tools_and_technologies": ["Python", "R", "Fairlearn", "Aequitas", "Statistical tools"],
+      "related_roles": ["R003", "R001", "R047"],
+      "learning_roadmap": {
+        "foundation": ["Machine Learning", "Statistical Analysis", "Research Skills", "Communication", "Critical Thinking"],
+        "intermediate": ["Explainable AI", "Python", "Bias Detection tools", "Policy Analysis"],
+        "advanced": ["Advanced ML", "Regulatory Frameworks", "Intersectionality Research", "NLP for Policy"]
+      }
+    },
+    {
+      "role_id": "R051",
+      "title": "Data Journalist",
+      "category": "Product & Analytics",
+      "subcategory": "Analytics",
+      "description": "Data Journalists use data analysis and visualisation to uncover and tell compelling stories. They work at the intersection of journalism, data analysis, and visual communication.",
+      "responsibilities": [
+        "Source, collect, and clean datasets for investigative stories",
+        "Analyse data to identify newsworthy patterns and trends",
+        "Create compelling data visualisations for digital and print media",
+        "Write data-driven narratives accessible to general audiences",
+        "Collaborate with editors and graphic designers"
+      ],
+      "focus_areas": ["Investigative Data Analysis", "Storytelling", "Data Visualisation", "Public Interest Reporting"],
+      "salary_range": {"min": 55000, "max": 105000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Growing interest in evidence-based journalism and visual storytelling online",
+      "growth_rate": 12,
+      "tools_and_technologies": ["Python", "R", "Flourish", "D3.js", "SQL", "Excel", "QGIS"],
+      "related_roles": ["R004", "R008"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Statistical Analysis", "Data Visualization", "Communication", "Critical Thinking"],
+        "intermediate": ["Python", "R Programming", "Data Wrangling", "Web Scraping"],
+        "advanced": ["D3.js", "Machine Learning basics", "Geospatial Analysis", "Advanced Visualization"]
+      }
+    },
+    {
+      "role_id": "R052",
+      "title": "Computational Linguist",
+      "category": "Data & AI",
+      "subcategory": "Specialised ML",
+      "description": "Computational Linguists combine linguistics and computer science to build systems that process and understand human language. They contribute to NLP, speech recognition, and language resource development.",
+      "responsibilities": [
+        "Annotate and curate linguistic datasets for NLP tasks",
+        "Research language phenomena relevant to NLP system design",
+        "Build and evaluate language processing pipelines",
+        "Work with lexicographers and linguists on language resources",
+        "Analyse model errors from a linguistic perspective"
+      ],
+      "focus_areas": ["Linguistics", "Language Resources", "NLP Pipeline Development", "Annotation"],
+      "salary_range": {"min": 85000, "max": 150000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "LLM era increasing demand for linguistic expertise in training data curation and evaluation",
+      "growth_rate": 25,
+      "tools_and_technologies": ["Python", "spaCy", "NLTK", "HuggingFace", "Prolog", "R"],
+      "related_roles": ["R005", "R003"],
+      "learning_roadmap": {
+        "foundation": ["Natural Language Processing", "Python", "Statistical Analysis", "Research Skills"],
+        "intermediate": ["Machine Learning", "Deep Learning", "Data Wrangling", "R Programming"],
+        "advanced": ["Transformer Models", "Multilingual NLP", "Speech Processing", "Linguistics Theory"]
+      }
+    },
+    {
+      "role_id": "R053",
+      "title": "Digital Analytics Specialist",
+      "category": "Product & Analytics",
+      "subcategory": "Analytics",
+      "description": "Digital Analytics Specialists collect and analyse data from digital channels—websites, apps, and campaigns—to optimise user experience and marketing ROI.",
+      "responsibilities": [
+        "Implement and maintain web and app tracking systems",
+        "Analyse user behaviour, conversion funnels, and campaign performance",
+        "Build dashboards to monitor digital performance",
+        "Collaborate with marketing and UX teams on optimisation",
+        "Report insights to stakeholders and recommend actions"
+      ],
+      "focus_areas": ["Web Analytics", "Tag Management", "Conversion Optimisation", "Campaign Analysis"],
+      "salary_range": {"min": 60000, "max": 105000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "All digital businesses rely on data to optimise performance; steady demand across industries",
+      "growth_rate": 15,
+      "tools_and_technologies": ["Google Analytics 4", "Adobe Analytics", "GTM", "Mixpanel", "SQL", "Python"],
+      "related_roles": ["R010", "R004"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Data Visualization", "Statistical Analysis", "Communication", "Business Analysis"],
+        "intermediate": ["A/B Testing", "Python", "Business Intelligence", "Web Technology basics"],
+        "advanced": ["Machine Learning basics", "Advanced Analytics", "Attribution Modelling"]
+      }
+    },
+    {
+      "role_id": "R054",
+      "title": "Prompt Engineer",
+      "category": "Data & AI",
+      "subcategory": "AI Engineering",
+      "description": "Prompt Engineers design, test, and optimise prompts for large language models to elicit desired outputs. They build prompt libraries, evaluation frameworks, and LLM-powered products.",
+      "responsibilities": [
+        "Design and iterate on prompts for specific LLM tasks",
+        "Build evaluation frameworks to measure LLM output quality",
+        "Develop and maintain prompt libraries and templates",
+        "Fine-tune and align LLM behaviour for specific applications",
+        "Collaborate with product and engineering teams on LLM integration"
+      ],
+      "focus_areas": ["Prompt Design", "LLM Evaluation", "Chain-of-Thought", "Output Optimisation"],
+      "salary_range": {"min": 80000, "max": 160000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Rapid adoption of LLMs creating immediate demand for specialists who can extract reliable outputs",
+      "growth_rate": 60,
+      "tools_and_technologies": ["Python", "OpenAI API", "LangChain", "HuggingFace", "Weights & Biases"],
+      "related_roles": ["R005", "R002", "R003"],
+      "learning_roadmap": {
+        "foundation": ["Natural Language Processing", "Python", "Communication", "Critical Thinking"],
+        "intermediate": ["Machine Learning", "REST API Design", "Explainable AI", "Research Skills"],
+        "advanced": ["LLM Fine-tuning", "RLHF", "RAG Systems", "Evaluation Design"]
+      }
+    },
+    {
+      "role_id": "R055",
+      "title": "Information Architect",
+      "category": "UX & Design",
+      "subcategory": "UX",
+      "description": "Information Architects design the structure, organisation, and navigation of information in digital products and platforms, making complex content findable and understandable.",
+      "responsibilities": [
+        "Design site maps, taxonomies, and navigation structures",
+        "Conduct card sorting and tree testing studies",
+        "Collaborate with content strategists and UX designers",
+        "Create wireframes focused on information hierarchy",
+        "Evaluate and improve findability of content"
+      ],
+      "focus_areas": ["Information Structure", "Navigation Design", "Taxonomy", "Content Strategy"],
+      "salary_range": {"min": 70000, "max": 125000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Growing complexity of digital products requiring specialists in content structure and navigation",
+      "growth_rate": 14,
+      "tools_and_technologies": ["Figma", "Miro", "Optimal Workshop", "Confluence", "Axure"],
+      "related_roles": ["R023", "R025", "R027"],
+      "learning_roadmap": {
+        "foundation": ["UX Design", "User Research", "Communication", "Critical Thinking", "Prototyping"],
+        "intermediate": ["Information Architecture theory", "Figma / Design Tools", "Design Systems"],
+        "advanced": ["Content Strategy", "Data-driven IA", "Advanced Usability Testing"]
+      }
+    },
+    {
+      "role_id": "R056",
+      "title": "Voice UI Designer",
+      "category": "UX & Design",
+      "subcategory": "Specialised Design",
+      "description": "Voice UI Designers create conversational interfaces for voice assistants, chatbots, and IVR systems, focusing on dialogue design, conversation flows, and audio experience.",
+      "responsibilities": [
+        "Design conversation flows and dialogue scripts for voice interfaces",
+        "Conduct voice-specific user research and testing",
+        "Define voice brand personality and tone of voice",
+        "Collaborate with NLP engineers on intent and entity design",
+        "Iterate designs based on dialogue analysis data"
+      ],
+      "focus_areas": ["Conversation Design", "Voice UX", "Dialogue Writing", "Persona Design"],
+      "salary_range": {"min": 70000, "max": 130000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "LLM and voice assistant growth creating demand for specialists in conversational UX",
+      "growth_rate": 25,
+      "tools_and_technologies": ["Voiceflow", "Figma", "Botmock", "DialogFlow", "NLP basics"],
+      "related_roles": ["R023", "R005"],
+      "learning_roadmap": {
+        "foundation": ["UX Design", "Communication", "User Research", "Prototyping", "Critical Thinking"],
+        "intermediate": ["Natural Language Processing basics", "Conversation Design", "Figma / Design Tools"],
+        "advanced": ["Advanced NLP", "LLM Integration", "Voice Analytics", "Multimodal Design"]
+      }
+    },
+    {
+      "role_id": "R057",
+      "title": "No-Code / Low-Code Developer",
+      "category": "Software Engineering",
+      "subcategory": "No-Code",
+      "description": "No-Code / Low-Code Developers build applications, automations, and workflows using platforms like Webflow, Bubble, or Zapier, often translating business needs into functional products without traditional coding.",
+      "responsibilities": [
+        "Build web apps and automations using no-code/low-code platforms",
+        "Connect APIs and third-party services via integration tools",
+        "Gather requirements from business users",
+        "Maintain and iterate on no-code solutions",
+        "Document workflows and train end users"
+      ],
+      "focus_areas": ["Visual Development", "Workflow Automation", "API Integration", "Rapid Prototyping"],
+      "salary_range": {"min": 55000, "max": 105000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "No-code platforms proliferating; businesses seeking faster, lower-cost development options",
+      "growth_rate": 28,
+      "tools_and_technologies": ["Webflow", "Bubble", "Zapier", "Airtable", "Make (Integromat)", "REST API basics"],
+      "related_roles": ["R017", "R011"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Problem Solving", "Business Analysis", "REST API basics"],
+        "intermediate": ["HTML/CSS basics", "JavaScript basics", "Database Design basics", "Agile / Scrum"],
+        "advanced": ["Python basics", "REST API Design", "System Design basics", "SQL"]
+      }
+    },
+    {
+      "role_id": "R058",
+      "title": "E-Commerce Manager",
+      "category": "Product & Analytics",
+      "subcategory": "E-Commerce",
+      "description": "E-Commerce Managers oversee digital commerce platforms, optimising product listings, customer journeys, and conversion rates to drive online sales.",
+      "responsibilities": [
+        "Manage and optimise e-commerce platform performance",
+        "Analyse sales data and conversion funnels",
+        "Coordinate product listings, pricing, and promotions",
+        "Work with marketing on acquisition and retention campaigns",
+        "Improve customer experience and reduce cart abandonment"
+      ],
+      "focus_areas": ["Conversion Optimisation", "E-Commerce Analytics", "Merchandising", "Customer Journey"],
+      "salary_range": {"min": 60000, "max": 110000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Continued growth of online retail across all product categories driving sustained demand",
+      "growth_rate": 14,
+      "tools_and_technologies": ["Shopify", "Google Analytics", "SQL", "Excel", "Klaviyo"],
+      "related_roles": ["R010", "R053", "R011"],
+      "learning_roadmap": {
+        "foundation": ["Communication", "Business Analysis", "Data Visualization", "SQL", "Critical Thinking"],
+        "intermediate": ["Statistical Analysis", "A/B Testing", "Market Research", "Product Management basics"],
+        "advanced": ["Machine Learning basics", "Python", "Business Intelligence", "Customer Analytics"]
+      }
+    },
+    {
+      "role_id": "R059",
+      "title": "GIS Analyst",
+      "category": "Data & AI",
+      "subcategory": "Specialised Analytics",
+      "description": "GIS Analysts collect, manage, and analyse geographic and spatial data to support decision-making in areas like urban planning, environmental management, logistics, and public health.",
+      "responsibilities": [
+        "Build and maintain geographic information systems and datasets",
+        "Perform spatial analysis and produce maps",
+        "Integrate GIS data with business intelligence tools",
+        "Collaborate with planners, engineers, and scientists",
+        "Develop geospatial workflows and automations in Python"
+      ],
+      "focus_areas": ["Spatial Analysis", "Cartography", "Geospatial Databases", "Remote Sensing"],
+      "salary_range": {"min": 60000, "max": 110000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Location data increasingly valuable in logistics, urban planning, climate, and public health",
+      "growth_rate": 14,
+      "tools_and_technologies": ["ArcGIS", "QGIS", "Python", "PostGIS", "SQL", "Google Earth Engine"],
+      "related_roles": ["R004", "R007"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Python", "Statistical Analysis", "Data Visualization", "Critical Thinking"],
+        "intermediate": ["GIS tools", "Database Design", "Data Wrangling", "Machine Learning basics"],
+        "advanced": ["Remote Sensing", "Spatial ML", "Big Data", "Cloud Platforms"]
+      }
+    },
+    {
+      "role_id": "R060",
+      "title": "Digital Health Analyst",
+      "category": "Data & AI",
+      "subcategory": "Domain Analytics",
+      "description": "Digital Health Analysts apply data science and analytics techniques to healthcare datasets to improve patient outcomes, operational efficiency, and public health insights.",
+      "responsibilities": [
+        "Analyse patient, clinical, and operational healthcare data",
+        "Build predictive models for patient outcomes and risk stratification",
+        "Visualise health data for clinicians and administrators",
+        "Ensure compliance with health data privacy regulations (HIPAA, GDPR)",
+        "Collaborate with clinicians and health IT teams"
+      ],
+      "focus_areas": ["Clinical Analytics", "Predictive Health Modelling", "Data Privacy", "Health Informatics"],
+      "salary_range": {"min": 70000, "max": 125000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Healthcare digitalisation and pandemic-driven investment in health analytics accelerating demand",
+      "growth_rate": 28,
+      "tools_and_technologies": ["Python", "R", "SQL", "Tableau", "SAS", "EHR systems"],
+      "related_roles": ["R001", "R004", "R047"],
+      "learning_roadmap": {
+        "foundation": ["Python", "SQL", "Statistical Analysis", "Data Visualization", "Communication"],
+        "intermediate": ["Machine Learning", "R Programming", "Data Wrangling", "Privacy & Compliance"],
+        "advanced": ["Deep Learning", "Clinical NLP", "Research Skills", "Explainable AI"]
+      }
+    },
+    {
+      "role_id": "R061",
+      "title": "Supply Chain Data Analyst",
+      "category": "Product & Analytics",
+      "subcategory": "Domain Analytics",
+      "description": "Supply Chain Data Analysts use data to optimise logistics, inventory, procurement, and distribution networks for efficiency and resilience.",
+      "responsibilities": [
+        "Analyse supply chain data to identify bottlenecks and inefficiencies",
+        "Build dashboards for inventory, demand, and logistics KPIs",
+        "Develop demand forecasting models",
+        "Work with operations and procurement on data-driven improvements",
+        "Monitor supplier performance and risk metrics"
+      ],
+      "focus_areas": ["Demand Forecasting", "Inventory Optimisation", "Logistics Analytics", "Supplier Analytics"],
+      "salary_range": {"min": 65000, "max": 115000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Supply chain disruptions highlighting need for data-driven resilience planning",
+      "growth_rate": 16,
+      "tools_and_technologies": ["SQL", "Python", "Excel", "SAP", "Tableau", "Power BI"],
+      "related_roles": ["R004", "R012", "R014"],
+      "learning_roadmap": {
+        "foundation": ["SQL", "Statistical Analysis", "Data Visualization", "Business Analysis", "Communication"],
+        "intermediate": ["Python", "Machine Learning basics", "Business Intelligence", "ETL Pipelines"],
+        "advanced": ["Advanced Forecasting", "Optimisation Algorithms", "Big Data", "Operations Research"]
+      }
+    },
+    {
+      "role_id": "R062",
+      "title": "Fintech Developer",
+      "category": "Software Engineering",
+      "subcategory": "Fintech",
+      "description": "Fintech Developers build financial technology products including payments, lending, investing, and insurance platforms, with strong requirements for security, reliability, and compliance.",
+      "responsibilities": [
+        "Build secure and compliant financial software applications",
+        "Integrate payment gateways and financial APIs",
+        "Implement fraud detection and risk management features",
+        "Ensure regulatory compliance (PCI-DSS, PSD2, etc.)",
+        "Design high-availability, low-latency financial systems"
+      ],
+      "focus_areas": ["Financial Systems", "Security & Compliance", "Payment Infrastructure", "High Availability"],
+      "salary_range": {"min": 100000, "max": 180000, "currency": "USD"},
+      "demand_level": "High",
+      "demand_reason": "Fintech sector continues strong growth; traditional banks also digitising rapidly",
+      "growth_rate": 24,
+      "tools_and_technologies": ["Python", "Java", "SQL", "REST API", "Docker", "Kubernetes", "AWS"],
+      "related_roles": ["R015", "R022", "R033"],
+      "learning_roadmap": {
+        "foundation": ["Python or Java", "SQL", "REST API Design", "Cybersecurity", "Git / Version Control"],
+        "intermediate": ["System Design", "Docker", "Cloud Platforms", "Database Design", "Microservices"],
+        "advanced": ["Kubernetes", "Compliance Frameworks", "High-Frequency Systems", "Fraud Detection ML"]
+      }
+    },
+    {
+      "role_id": "R063",
+      "title": "Human Factors Engineer",
+      "category": "UX & Design",
+      "subcategory": "HCI",
+      "description": "Human Factors Engineers apply psychological and physiological principles to the design of systems, products, and environments, particularly in safety-critical domains like aviation, healthcare, and automotive.",
+      "responsibilities": [
+        "Apply human factors principles to product and system design",
+        "Conduct workload and usability assessments",
+        "Evaluate designs for safety and error reduction",
+        "Work with regulatory bodies on compliance",
+        "Design experiments and analyse human performance data"
+      ],
+      "focus_areas": ["Human Factors", "Ergonomics", "Safety Critical Design", "Cognitive Load"],
+      "salary_range": {"min": 80000, "max": 145000, "currency": "USD"},
+      "demand_level": "Medium",
+      "demand_reason": "Safety-critical industries (aviation, automotive, healthcare) increasing UX rigour requirements",
+      "growth_rate": 18,
+      "tools_and_technologies": ["User Research tools", "Statistical Analysis software", "Eye-tracking", "Figma", "Python basics"],
+      "related_roles": ["R023", "R025", "R028"],
+      "learning_roadmap": {
+        "foundation": ["User Research", "Statistical Analysis", "Critical Thinking", "Communication", "UX Design"],
+        "intermediate": ["Prototyping", "Experimental Design", "Accessibility (WCAG)", "Research Skills"],
+        "advanced": ["Human Factors Theory", "Cognitive Psychology", "Safety Engineering", "Advanced Statistics"]
+      }
+    }
+  ]
+}
